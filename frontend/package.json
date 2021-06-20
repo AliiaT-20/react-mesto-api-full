@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && scp -r ./build/* aliia@130.193.48.121:/home/aliia/mesto-frontend"
+    "deploy": "npm run build && scp -r ./build/* aliia@178.154.231.43:/home/aliia/frontend"
   },
   "eslintConfig": {
     "extends": [
