@@ -30,7 +30,7 @@ class Login extends React.Component {
     render() {
         return (
             <section className="login">
-                <Header link='/sign-up' text="Регистрация" />
+                <Header link='/signup' text="Регистрация" />
                 <div className="login__container">
                     <h3 className="login__title">Вход</h3>
                     <form className="login__form" name = "login" onSubmit={this.handleSubmit}>

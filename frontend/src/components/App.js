@@ -98,7 +98,7 @@ function App() {
         setTextInfoTooltip('');
         setImageInfoTooltip('');
         if (check === success) {
-            history.push('/sign-in')
+            history.push('/signin')
         };
     }
 

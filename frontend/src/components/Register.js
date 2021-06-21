@@ -24,7 +24,7 @@ class Register extends React.Component {
     render() {
         return (
             <section className="login">
-                <Header link='/sign-in' text="Войти" />
+                <Header link='/signin' text="Войти" />
                 <div className="login__container">
                     <h3 className="login__title">Регистрация</h3>
                     <form className="login__form" name = "login" onSubmit={this.handleSubmit}>
@@ -37,7 +37,7 @@ class Register extends React.Component {
                             <span className="email-input-error popup__text-error"></span>
                         </label>
                         <button type="submit" value="Зарегистрироваться" name="login" className="login__submit-button">Зарегистрироваться</button>
-                        <p className="login__txtarea">Уже зарегистрированы? <a className="login__a" href="/sign-in">Войти</a></p>
+                        <p className="login__txtarea">Уже зарегистрированы? <a className="login__a" href="/signin">Войти</a></p>
                     </form>
                 </div>
             </section>

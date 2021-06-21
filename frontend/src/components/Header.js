@@ -5,7 +5,7 @@ function Header(props) {
     const history = useHistory();
     function signOut(){
         localStorage.removeItem('jwt');
-        history.push('/sign-in');
+        history.push('/signin');
     }
     return (
         <header className="header">
