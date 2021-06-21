@@ -145,7 +145,6 @@ function App() {
         .catch(err => console.log(err));
     }
     function handleOnRegister(password, email) {
-        console.log(password, email)
         auth.register(password, email)
         .then((res) => {
             if(!res.error && !res.message){
@@ -176,10 +175,10 @@ function App() {
                 <div className="page">
                 <main className="cont">
                         <Switch>
-                            <Route path="/sign-up">
+                            <Route path="/signup">
                                 <Register onRegister = {handleOnRegister} />
                             </Route>
-                            <Route path="/sign-in">
+                            <Route path="/signin">
                                 <Login onLogin = {handleOnLogin} />
                             </Route>
                             <ProtectedRoute
